@@ -57,7 +57,7 @@
         styles = styles + '  ' + settings.properties[i] + ': ' + value + ';\n';
       });
 
-      // Add selector and curly braces to the styles
+      // Add selector and curly braces to styles
       var css = selectorName + ' {\n' + styles  +'}';
 
       // If <style> has CSS remove it and append new CSS, otherwise append new CSS to <body>
