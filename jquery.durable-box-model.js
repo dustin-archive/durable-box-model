@@ -1,5 +1,5 @@
-// Durable Box Model
-// Febuary 6, 2015
+// Durable Box Model - 1.0.0
+// February 6, 2015
 // The MIT License (MIT)
 // Copyright (c) 2015 Dustin Dowell
 // http://github.com/dustindowell22/durable-box-model
