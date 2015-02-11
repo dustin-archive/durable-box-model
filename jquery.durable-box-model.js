@@ -1,12 +1,16 @@
-// Durable Box Model - 1.0.0
-// February 6, 2015
+// Durable Box Model - 1.0.1
+// February 11, 2015
 // The MIT License (MIT)
 // Copyright (c) 2015 Dustin Dowell
 // http://github.com/dustindowell22/durable-box-model
+// =============================================
 
 
 (function($) {
   $.fn.dbm = function(options) {
+
+    // Store object
+    var $this  = $(this);
 
     // Settings
     var settings = $.extend({
@@ -15,9 +19,6 @@
         'padding-top', 'padding-right', 'padding-bottom', 'padding-left'
       ]
     }, options);
-
-    // Store object
-    var $this  = $(this);
 
     // Create style element
     var $style = $('<style>');
@@ -41,8 +42,8 @@
       // Set array scope
       var styles = [];
 
-      // Body font size
-      var fontSize = parseFloat($('body').css('font-size'));
+      // Font size
+      var fontSize = parseFloat($this.css('font-size'));
 
       // Clear styles before they're checked for updating
       $style.empty();

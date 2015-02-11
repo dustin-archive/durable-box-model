@@ -1,4 +1,4 @@
-Durable Box Model - 1.0.0
+Durable Box Model - 1.0.1
 =========
 
 Say "screw you" to browser sub-pixel rounding.
